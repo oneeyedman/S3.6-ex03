@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color ease .5s;
+}
+
+.app--red {
+  background: red;
+}
+
+.app__field {
+  font-size: 2em;
+  width: 10em;
+  height: 6em;
+}
